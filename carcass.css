@@ -1,13 +1,11 @@
 /**
- * @name The night of the dreamer
- * @description Обычная приятная ночная тема для Discord с приятными неоновыми фиолетовыми оттенками.
+ * @name carcass
+ * @description 
  * @author Parssiffal
- * @version 1.6.2
  * @authorId 508863359777505290
  * @authorLink https://discord.com/users/817763083523063839
  */
 
-/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
 @import url('https://raw.githubusercontent.com/twosleepynights0x1/discord-theme/refs/heads/main/scrcs.css');
 
@@ -17,7 +15,7 @@
 	--font: 'figtree';
 
 	/* top left corner text */
-	--corner-text: 'Dev version 0.0.1 - Parsiffal';
+	--corner-text: 'The night of the dreamer';
 
 	/* thickness of messages divider */
 	--divider-thickness: 3px;
