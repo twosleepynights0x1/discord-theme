@@ -91,13 +91,12 @@
 
 /* catppuccin icon */
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background: url('https://i.pinimg.com/736x/9e/a3/26/9ea3266fed343b3729db2498cc605e08.jpg');
+	background: url('https://i.pinimg.com/736x/34/43/16/344316bb7653c113ee38ad627fa11886.jpg');
 	background-color: transparent !important;
 	background-size: cover;
 }
 
-/* Применяем стандартную иконку Discord */
-@import url('https://cdn.discordapp.com/icons/1100637134462901266/a_7c7daed87a7f22243d8b8a6181eacdb3.gif');
+
 
 /* Стили для активности (жирный шрифт для игр) */
 
