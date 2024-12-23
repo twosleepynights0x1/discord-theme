@@ -1,5 +1,5 @@
 /**
- * @name carcass
+ * @name winter-theme
  * @description 
  * @author Parssiffal
  * @authorId 508863359777505290
@@ -21,36 +21,36 @@
 	--divider-thickness: 3px;
 
 	/* color of status indicators and window controls */
-	--online-indicator: #9d4fd4; /* неоново-фиолетовый */
-	--dnd-indicator: #f38ba8; /* красный */
-	--idle-indicator: #f9e2af; /* желтый */
-	--streaming-indicator: #cba6f7; /* фиолетовый */
+	--online-indicator: #00bfff; /* голубой */
+	--dnd-indicator: #ff4500; /* оранжевый */
+	--idle-indicator: #ffd700; /* золотой */
+	--streaming-indicator: #1e90ff; /* светло-голубой */
 
 	/* accent colors */
-	--accent-1: hsl(267, 84%, 81%); /* links */
-	--accent-2: hsl(267, 84%, 81%); /* general unread/mention elements */
-	--accent-3: hsl(267, 84%, 81%); /* accent buttons */
-	--accent-4: hsl(267, 70%, 73%); /* accent buttons when hovered */
-	--accent-5: hsl(267, 55%, 65%); /* accent buttons when clicked */
-	--mention: hsla(267, 70%, 71%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(267, 70%, 71%, 0.05); /* mentions & mention messages when hovered */
+	--accent-1: hsl(200, 100%, 80%); /* ссылки */
+	--accent-2: hsl(200, 100%, 80%); /* элементы непрочитанных/упоминаний */
+	--accent-3: hsl(200, 100%, 80%); /* акцентные кнопки */
+	--accent-4: hsl(200, 80%, 70%); /* акцентные кнопки при наведении */
+	--accent-5: hsl(200, 60%, 60%); /* акцентные кнопки при нажатии */
+	--mention: hsla(200, 70%, 71%, 0.1); /* упоминания и сообщения упоминаний */
+	--mention-hover: hsla(200, 70%, 71%, 0.05); /* упоминания при наведении */
 
 	/* text colors */
-	--text-0: var(--bg-4); /* text on colored elements */
-	--text-1: hsl(220, 40%, 95%); /* bright text on colored elements */
-	--text-2: hsl(226, 64%, 88%); /* headings and important text */
-	--text-3: hsl(228, 24%, 72%); /* normal text */
-	--text-4: hsl(230, 13%, 55%); /* icon buttons and channels */
-	--text-5: hsl(233, 12%, 39%); /* muted channels/chats and timestamps */
+	--text-0: var(--bg-4); /* текст на цветных элементах */
+	--text-1: hsl(220, 40%, 95%); /* яркий текст на цветных элементах */
+	--text-2: hsl(226, 64%, 88%); /* заголовки и важный текст */
+	--text-3: hsl(228, 24%, 72%); /* обычный текст */
+	--text-4: hsl(230, 13%, 55%); /* иконки и каналы */
+	--text-5: hsl(233, 12%, 39%); /* приглушенные каналы/чаты и временные метки */
 
 	/* background and dark colors */
-	--bg-1: hsl(234, 13%, 31%); /* dark buttons when clicked */
-	--bg-2: hsl(237, 16%, 23%); /* dark buttons */
-	--bg-3: hsl(240, 21%, 12%); /* spacing, secondary elements */
-	--bg-4: hsl(240, 21%, 15%); /* main background color */
-	--hover: hsla(237, 18%, 53%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(235, 15%, 53%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(240, 0%, 0%, 0.1); /* messages when hovered */
+	--bg-1: hsl(210, 20%, 25%); /* темные кнопки при нажатии */
+	--bg-2: hsl(210, 20%, 20%); /* темные кнопки */
+	--bg-3: hsl(210, 20%, 15%); /* отступы, второстепенные элементы */
+	--bg-4: hsl(210, 20%, 10%); /* основной цвет фона */
+	--hover: hsla(210, 18%, 53%, 0.1); /* каналы и кнопки при наведении */
+	--active: hsla(210, 15%, 53%, 0.2); /* каналы и кнопки при нажатии или выборе */
+	--message-hover: hsla(210, 0%, 0%, 0.1); /* сообщения при наведении */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
@@ -96,8 +96,6 @@
 	background-size: cover;
 }
 
-
-
 /* Стили для активности (жирный шрифт для игр) */
 
 /* Стили для элементов активности, включая игры */
@@ -114,3 +112,4 @@
 .member-activity-1zK4Vj .activity-1zK4Vj span:nth-child(2) {
     font-weight: bold; /* Название игры будет жирным */
 }
+
